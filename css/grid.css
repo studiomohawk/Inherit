@@ -1,0 +1,67 @@
+.hasGrid {
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    word-spacing: -0.43em;
+}
+.size1-1,
+.size1-2,
+.size1-3,
+.size2-3,
+.size1-4,
+.size3-4,
+.size1-5,
+.size2-5,
+.size3-5,
+.size4-5,
+.size1-6,
+.size5-6,
+.size1-8,
+.size3-8,
+.size5-8,
+.size7-8,
+.size1-12,
+.size5-12,
+.size7-12,
+.size11-12,
+.size1-24,
+.size5-24,
+.size7-24,
+.size11-24,
+.size13-24,
+.size17-24,
+.size19-24,
+.size23-24 {
+    display: inline-block;
+    zoom: 1; *display: inline;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+}
+.size1-1   { display: block; }
+.size1-2   { width: 50%; }
+.size1-3   { width: 33.33333%; }
+.size2-3   { width: 66.66666%; }
+.size1-4   { width: 25%; }
+.size3-4   { width: 75%; }
+.size1-5   { width: 20%; }
+.size2-5   { width: 40%; }
+.size3-5   { width: 60%; }
+.size4-5   { width: 80%; }
+.size1-6   { width: 16.656%; }
+.size5-6   { width: 83.33%; }
+.size1-8   { width: 12.5%; }
+.size3-8   { width: 37.5%; }
+.size5-8   { width: 62.5%; }
+.size7-8   { width: 87.5%; }
+.size1-12  { width: 8.3333%; }
+.size5-12  { width: 41.6666%; }
+.size7-12  { width: 58.3333%; }
+.size11-12 { width: 91.6666%; }
+.size1-24  { width: 4.1666%; }
+.size5-24  { width: 20.8333%; }
+.size7-24  { width: 29.1666%; }
+.size11-24 { width: 45.8333%; }
+.size13-24 { width: 54.1666%; }
+.size17-24 { width: 70.8333%; }
+.size19-24 { width: 79.1666%; }
+.size23-24 { width: 95.8333%; }
