@@ -11,15 +11,12 @@
 <base href="<?php bloginfo("template_url"); ?>/">
 <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
 <link rel="stylesheet/less" href="<?php bloginfo('stylesheet_directory'); ?>/css/style.less">
-<?php /* If this is a single */ if (is_single()) { ?>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/syntaxhighlight.css">
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/skin/fancybox/jquery.fancybox.css">
-<?php } ?>
 <script type="text/javascript" src="http://lesscss.googlecode.com/files/less-1.0.35.min.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/modernizr.js"></script>
 <!--[if lt IE 9]>
 <link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1b.css">
 <![endif]-->
 <?php wp_head(); ?>
+<base href="<?php echo $prev_base_href; ?>">
 </head>
 <body class="<?php thematic_body_class(); ?>">
